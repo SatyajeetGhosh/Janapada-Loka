@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Submitted Successfully</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<style>
+		*{
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		  font-family: 'Poppins',sans-serif;
+		}
+		body{
+		  height: 100vh;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  padding: 10px;
+		  background: linear-gradient(135deg, #ffffff, #FFA500);
+		}
+		.container{
+		  max-width: 700px;
+		  width: 100%;
+		  background-color: #fff;
+		  padding: 25px 30px;
+		  border-radius: 5px;
+		  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+		}
+		.container .title{
+		  font-size: 25px;
+		  font-weight: 500;
+		  position: relative;
+		}
+		.container .title::before{
+		  content: "";
+		  position: absolute;
+		  left: 0;
+		  bottom: 0;
+		  height: 3px;
+		  width: 30px;
+		  border-radius: 5px;
+		  background: linear-gradient(135deg, #ffffff, #FFA500);
+		}
+		.content{
+		  text-align: center;
+		  margin-top: 30px;
+		}
+		.content p{
+		  font-size: 20px;
+		  font-weight: 500;
+		  margin-bottom: 20px;
+		}
+		.button{
+		  height: 45px;
+		  margin-top: 20px;
+		}
+		.button a{
+		  display: block;
+		  height: 100%;
+		  width: 100%;
+		  border-radius: 5px;
+		  border: none;
+		  color: #fff;
+		  font-size: 18px;
+		  font-weight: 500;
+		  letter-spacing: 1px;
+		  cursor: pointer;
+		  transition: all 0.3s ease;
+		  background: linear-gradient(135deg, #ffffff, #FFA500);
+		  text-decoration: none;
+		  line-height: 45px;
+		}
+		.button a:hover{
+		  /* transform: scale(0.99); */
+		  background: linear-gradient(-135deg, #ffffff, #FFA500);
+		}
+		@media(max-width: 584px){
+		  .container{
+		    max-width: 100%;
+		  }
+		}
+		@media(max-width: 459px){
+		  .container .content .category{
+		    flex-direction: column;
+		  }
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="title">Form Submitted Successfully</div>
+		<div class="content">
+			<p>Thank you for submitting the form!</p>
+			<div class="button">
+				<a href="index.html">Visit JanapdaLoka</a>
+			</div>
+		</div>
+	</div>
+  <script type="text/JavaScript"
+  src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      defaultLanguage: 'en',
+      pageLanguage: 'en',
+      includedLanguages: 'kn,en,hi,ml',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false,
+      multilanguagePage: true
+    }, 'google_translate_element')
+
+  };
+</script>
+</body>
+</html>
